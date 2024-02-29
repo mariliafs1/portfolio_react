@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+@import url(reset.css);
+
+:root{
+    --cor-de-fundo: linear-gradient(68.15deg, rgb(52, 32, 32) 16.62%,  rgb(168, 136, 104) 85.16%);
+    --cor-do-menu: rgb(52, 32, 32);
+    --cor-da-sessao: rgb(245, 234, 208); 
+    --cor-fonte-1: rgb(245, 234, 208);
+    --cor-fonte-2: rgb(52, 32, 32);
+    --fonte-primaria: "Josefin Sans", sans-serif;
+    --fonte-secundaria:"Josefin Slab", serif;
+    --fonte-logo:"Ingrid Darling";
+}
+
+body{
+  background: var(--cor-de-fundo);
+  box-sizing: border-box; 
+}
+
+.app{
+  text-align: center;
+  padding: 5rem 1.5rem;
+  position: relative;
+  
+}
+

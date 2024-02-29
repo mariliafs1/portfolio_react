@@ -1,0 +1,27 @@
+.rodape{
+    background-color: var(--cor-do-menu);
+    padding: 0.4rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.rodape__contatos{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.rodape__contatos img{
+    max-width: 2.5rem;
+    margin: 0.5rem;
+}
+
+.rodape__contatos__texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

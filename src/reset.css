@@ -1,0 +1,35 @@
+/* Reset CSS básico */
+
+/* Definindo a margem e o padding padrão como 0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corrigindo a exibição de elementos em linha */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Removendo a decoração padrão dos links */
+a {
+    color: inherit; /* Herda a cor do texto do elemento pai */
+    text-decoration: none; /* Remove sublinhado padrão */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    outline: none; /* Remove a borda de foco padrão */  
+}
+
+/* Definindo fonte padrão e tamanho do texto */
+body {
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-1);
+}
+
+/* Removendo a lista de marcadores padrão */
+ul, ol {
+    list-style: none;
+}
