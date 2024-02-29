@@ -11,7 +11,7 @@ import Contato from './routes/Contato.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/portfolio_react",
+    path: "/portfolio_react/",
     element: <App />,
     // children: [
     //   {
