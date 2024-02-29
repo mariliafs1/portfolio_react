@@ -11,10 +11,11 @@ import Contato from './routes/Contato.jsx';
 
 const router = createBrowserRouter([
   {
+    // path: "/portfolio_react",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/portfolio_react",
         element: <AboutMe />,
       },
       {

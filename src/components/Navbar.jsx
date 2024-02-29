@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <ul className="navbar__itens">
             <li>
-                <Link to={'/'}>Sobre Mim</Link>
+                <Link to={'/portfolio_react'}>Sobre Mim</Link>
             </li>
             <li>
                 <Link to={'/portfolio'}>Portfólio</Link>
