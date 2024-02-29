@@ -13,20 +13,20 @@ const router = createBrowserRouter([
   {
     path: "/portfolio_react",
     element: <App />,
-    children: [
-      {
-        path: "/portfolio_react",
-        element: <AboutMe />,
-      },
-      {
-        path:"/portfolio",
-        element: <Portfolio />
-      },
-      {
-        path:"/contato",
-        element: <Contato />
-      },
-    ],
+    // children: [
+    //   {
+    //     path: "/portfolio_react",
+    //     element: <AboutMe />,
+    //   },
+    //   {
+    //     path:"/portfolio",
+    //     element: <Portfolio />
+    //   },
+    //   {
+    //     path:"/contato",
+    //     element: <Contato />
+    //   },
+    // ],
   },
 ])
 
